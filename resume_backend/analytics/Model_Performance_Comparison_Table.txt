@@ -1,0 +1,9 @@
+Table 1. Performance comparison of different resume matching techniques (silver-label from real DB)
+Pairs used: 278 | Label rule: per-resume TOP_K=2 by stored match_score
+
+Method                       Accuracy (%)  Precision   Recall  F1 Score
+------------------------------------------------------------------------
+Keyword Matching                     70.5       0.47     0.47      0.47
+TF-IDF + Cosine Similarity           61.9       0.32     0.32      0.32
+Basic NLP Parsing                    69.1       0.45     0.45      0.45
+Proposed Resume Analyzer             67.6       0.42     0.42      0.42

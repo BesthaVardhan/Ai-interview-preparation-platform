@@ -1,0 +1,23 @@
+# Environment and secrets – never commit .env or real API keys
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.idea/
+*.swp
+*.swo
+# Frontend dependencies and build files
+node_modules/
+dist/
+
+# Python environment files
+.env.*
